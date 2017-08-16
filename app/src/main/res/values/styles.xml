@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/colorPrimary</item>    <!-- 状态栏 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- toolbar -->
+        <item name="colorAccent">@color/colorAccent</item>  <!-- 重点 -->
+    </style>
+
+
+    <!--
+    android:backgroundDimEnabled：表示页面时候变暗，我们设置false，不变暗
+    android:windowBackground：表示背景颜色，我们这种为透明，因为我们给布局文件背景设置了圆角，如果不设置对话框为透明的话，圆角部分会留白
+-->
+    <style name="customDialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#3f51b5</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

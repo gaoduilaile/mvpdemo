@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android_WorkSpace\\androidmvp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android_WorkSpace\\androidmvp\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_WorkSpace\\androidmvp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "E:\\Android_WorkSpace\\androidmvp\\app\\src\\main\\res\\menu\\login.xml"
+    }
+]
